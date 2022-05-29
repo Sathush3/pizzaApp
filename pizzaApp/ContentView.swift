@@ -23,7 +23,9 @@ struct ContentView: View {
                     Text("Favourites")
                 }
         }
-       
+        //.preferredColorScheme(.dark)
+        // dark mode copatibility check
+            
         }
     }
 

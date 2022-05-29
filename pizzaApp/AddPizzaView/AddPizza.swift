@@ -54,7 +54,7 @@ struct AddPizza: View {
 //                                    }
                     }.pickerStyle(.segmented)
                         .frame( height: 50, alignment: .leading)
-                        .background(Color.white)
+                       
                         
                    
                      Spacer()

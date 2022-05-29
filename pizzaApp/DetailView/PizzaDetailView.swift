@@ -21,45 +21,53 @@ struct PizzaDetailView: View {
     
     
     var body: some View {
-        Form {
-            Section(header: Text("Pizza")) {
-                Image(selectedPizza.imageName)
-                    .resizable()
-                    .cornerRadius(12.0)
-                    .aspectRatio(contentMode: .fit)
-                    .padding()
-                
-                Text(selectedPizza.name)
-                    .font(.headline)
-                
-                Text(selectedPizza.ingredients)
-                    .font(.body)
-                
-                HStack {
-                    Text("Type").font(.headline)
-                    Spacer()
-                    Text(selectedPizza.type)
-                }.padding(.trailing)
-                HStack(alignment:.center) {
-                    Spacer()
-                    //MARK:  Passing data to core data Favourites
-                    Button("Add to Favourites"){
-                        DataController().addHistory(name: selectedPizza.name, imageName: selectedPizza.imageName, context: managedObjContext)
-                        dismiss()
-                    }
-                    Spacer()
-                        .alert(isPresented: $favAdd){
-                            Alert(title: Text("Pizza Added"), message: Text("You added  " + self.selectedPizza.name + " to favourites" ))
-                           
-                        }
-                }
+        NavigationView {
+            Form  {
+                    Image(selectedPizza.imageName)
+                        .resizable()
+                        .cornerRadius(12.0)
+                        .aspectRatio(contentMode: .fit)
+                        .padding()
                     
+                    Text(selectedPizza.name)
+                        .font(.headline)
+                    
+                    Text(selectedPizza.ingredients)
+                        .font(.body)
+                    
+                    HStack {
+                        Text("Type").font(.headline)
+                        Spacer()
+                        Text(selectedPizza.type)
+                    }.padding(.trailing)
+                    HStack(alignment:.center) {
+                        Spacer()
+                        //MARK:  Passing data to core data Favourites
+                        Button("Add to Favourites"){
+                            DataController().addHistory(name: selectedPizza.name, imageName: selectedPizza.imageName, context: managedObjContext)
+                            dismiss()
+                        }
+                        Spacer()
+                            .alert(isPresented: $favAdd){
+                                Alert(title: Text("Pizza Added"), message: Text("You added  " + self.selectedPizza.name + " to favourites" ))
+                               
+                            }
+                    }
+                        
 
+                    
                 
-            }
+            }.navigationBarHidden(true)
+            .toolbar {
+                            ToolbarItem(placement: .principal) {
+                                // this sets the screen title in the navigation bar, when the screen is visible
+                                Text("Pizza")
+                            }
+                        }
         }
-        Spacer()
-            .navigationBarHidden(true)
+        
+           
+        
     }
         
     }
