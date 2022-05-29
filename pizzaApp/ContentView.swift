@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView{
+            PizzaMainView()
+                .tabItem{
+                    Image(systemName:"list.dash")
+                    Text("Order")
+                }
+            PizzaFavouriteView()
+                .tabItem{
+                    Image(systemName:"star.fill")
+                    Text("Favourites")
+                }
+        }
+       
+        }
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(PizzaData())
     }
 }

@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct pizzaAppApp: App {
+    @StateObject private var dataController  = DataController()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(PizzaData())
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

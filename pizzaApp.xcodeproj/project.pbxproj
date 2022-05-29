@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7934B8EE283F498C0054DAA9 /* HistoryData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7934B8EC283F498C0054DAA9 /* HistoryData.xcdatamodeld */; };
+		7934B8F1283F4B920054DAA9 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7934B8F0283F4B920054DAA9 /* DataController.swift */; };
+		7943E3482839DBE0007EE522 /* PizzaMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943E3472839DBE0007EE522 /* PizzaMainView.swift */; };
+		7943E34A2839DC94007EE522 /* PizzaFavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943E3492839DC94007EE522 /* PizzaFavouriteView.swift */; };
+		7943E34C2839F2C2007EE522 /* PizzaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943E34B2839F2C2007EE522 /* PizzaListView.swift */; };
+		7943E34E2839F2CF007EE522 /* PizzaRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943E34D2839F2CF007EE522 /* PizzaRowView.swift */; };
+		7943E352283A197C007EE522 /* PizzaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943E351283A197C007EE522 /* PizzaDetailView.swift */; };
+		7943E359283A7047007EE522 /* PizzaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943E358283A7047007EE522 /* PizzaData.swift */; };
+		7943E35B283AA754007EE522 /* PizzaListVIewUnfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943E35A283AA754007EE522 /* PizzaListVIewUnfil.swift */; };
 		7953828528392197003D85ED /* pizzaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7953828428392197003D85ED /* pizzaAppApp.swift */; };
 		7953828728392197003D85ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7953828628392197003D85ED /* ContentView.swift */; };
 		7953828928392198003D85ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7953828828392198003D85ED /* Assets.xcassets */; };
 		7953828C28392198003D85ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7953828B28392198003D85ED /* Preview Assets.xcassets */; };
+		79538293283924D6003D85ED /* Pizzas.json in Resources */ = {isa = PBXBuildFile; fileRef = 79538292283924D6003D85ED /* Pizzas.json */; };
+		79538299283925F0003D85ED /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79538298283925F0003D85ED /* Pizza.swift */; };
+		7953829D2839275B003D85ED /* AddPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7953829C2839275B003D85ED /* AddPizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7934B8ED283F498C0054DAA9 /* FavouritesData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavouritesData.xcdatamodel; sourceTree = "<group>"; };
+		7934B8F0283F4B920054DAA9 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		7943E3472839DBE0007EE522 /* PizzaMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaMainView.swift; sourceTree = "<group>"; };
+		7943E3492839DC94007EE522 /* PizzaFavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaFavouriteView.swift; sourceTree = "<group>"; };
+		7943E34B2839F2C2007EE522 /* PizzaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaListView.swift; sourceTree = "<group>"; };
+		7943E34D2839F2CF007EE522 /* PizzaRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaRowView.swift; sourceTree = "<group>"; };
+		7943E351283A197C007EE522 /* PizzaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDetailView.swift; sourceTree = "<group>"; };
+		7943E358283A7047007EE522 /* PizzaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaData.swift; sourceTree = "<group>"; };
+		7943E35A283AA754007EE522 /* PizzaListVIewUnfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaListVIewUnfil.swift; sourceTree = "<group>"; };
 		7953828128392197003D85ED /* pizzaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pizzaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7953828428392197003D85ED /* pizzaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizzaAppApp.swift; sourceTree = "<group>"; };
 		7953828628392197003D85ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7953828828392198003D85ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7953828B28392198003D85ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79538292283924D6003D85ED /* Pizzas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Pizzas.json; sourceTree = "<group>"; };
+		79538298283925F0003D85ED /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		7953829C2839275B003D85ED /* AddPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +56,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7934B8EB283F49650054DAA9 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				7934B8EC283F498C0054DAA9 /* HistoryData.xcdatamodeld */,
+				7934B8F0283F4B920054DAA9 /* DataController.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		7934B8EF283F4B680054DAA9 /* JsonStoragee */ = {
+			isa = PBXGroup;
+			children = (
+				79538292283924D6003D85ED /* Pizzas.json */,
+				7943E358283A7047007EE522 /* PizzaData.swift */,
+			);
+			path = JsonStoragee;
+			sourceTree = "<group>";
+		};
+		7943E350283A1958007EE522 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				7943E351283A197C007EE522 /* PizzaDetailView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
 		7953827828392197003D85ED = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +101,13 @@
 		7953828328392197003D85ED /* pizzaApp */ = {
 			isa = PBXGroup;
 			children = (
+				7934B8EF283F4B680054DAA9 /* JsonStoragee */,
+				79538295283925AE003D85ED /* AddPizzaView */,
+				79538294283925A6003D85ED /* Model */,
+				79538296283925BB003D85ED /* FavouriteView */,
+				79538297283925C6003D85ED /* MainView */,
+				7943E350283A1958007EE522 /* DetailView */,
+				7934B8EB283F49650054DAA9 /* DataModel */,
 				7953828428392197003D85ED /* pizzaAppApp.swift */,
 				7953828628392197003D85ED /* ContentView.swift */,
 				7953828828392198003D85ED /* Assets.xcassets */,
@@ -65,6 +122,41 @@
 				7953828B28392198003D85ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79538294283925A6003D85ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79538298283925F0003D85ED /* Pizza.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79538295283925AE003D85ED /* AddPizzaView */ = {
+			isa = PBXGroup;
+			children = (
+				7953829C2839275B003D85ED /* AddPizza.swift */,
+			);
+			path = AddPizzaView;
+			sourceTree = "<group>";
+		};
+		79538296283925BB003D85ED /* FavouriteView */ = {
+			isa = PBXGroup;
+			children = (
+				7943E3492839DC94007EE522 /* PizzaFavouriteView.swift */,
+			);
+			path = FavouriteView;
+			sourceTree = "<group>";
+		};
+		79538297283925C6003D85ED /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				7943E3472839DBE0007EE522 /* PizzaMainView.swift */,
+				7943E34B2839F2C2007EE522 /* PizzaListView.swift */,
+				7943E34D2839F2CF007EE522 /* PizzaRowView.swift */,
+				7943E35A283AA754007EE522 /* PizzaListVIewUnfil.swift */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +219,7 @@
 			files = (
 				7953828C28392198003D85ED /* Preview Assets.xcassets in Resources */,
 				7953828928392198003D85ED /* Assets.xcassets in Resources */,
+				79538293283924D6003D85ED /* Pizzas.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +230,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7943E34A2839DC94007EE522 /* PizzaFavouriteView.swift in Sources */,
+				7953829D2839275B003D85ED /* AddPizza.swift in Sources */,
+				7943E352283A197C007EE522 /* PizzaDetailView.swift in Sources */,
 				7953828728392197003D85ED /* ContentView.swift in Sources */,
+				7943E34C2839F2C2007EE522 /* PizzaListView.swift in Sources */,
+				7943E34E2839F2CF007EE522 /* PizzaRowView.swift in Sources */,
+				7943E359283A7047007EE522 /* PizzaData.swift in Sources */,
 				7953828528392197003D85ED /* pizzaAppApp.swift in Sources */,
+				7943E3482839DBE0007EE522 /* PizzaMainView.swift in Sources */,
+				7934B8F1283F4B920054DAA9 /* DataController.swift in Sources */,
+				7943E35B283AA754007EE522 /* PizzaListVIewUnfil.swift in Sources */,
+				7934B8EE283F498C0054DAA9 /* HistoryData.xcdatamodeld in Sources */,
+				79538299283925F0003D85ED /* Pizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +443,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7934B8EC283F498C0054DAA9 /* HistoryData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7934B8ED283F498C0054DAA9 /* FavouritesData.xcdatamodel */,
+			);
+			currentVersion = 7934B8ED283F498C0054DAA9 /* FavouritesData.xcdatamodel */;
+			path = HistoryData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7953827928392197003D85ED /* Project object */;
 }
